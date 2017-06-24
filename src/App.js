@@ -21,7 +21,7 @@ const QuoteBox = ({ quote, author, onClick }) => {
   )}`;
   return (
     <div className="wrapper-box">
-      <a href={url} target="_blank">
+      <a href={url} target="_blank" rel="noopener noreferrer">
         <div className="social-top">
           <div className="fa fa-twitter" />
         </div>
